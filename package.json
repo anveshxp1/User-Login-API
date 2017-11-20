@@ -1,0 +1,22 @@
+{
+  "name": "user-login-api",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.1"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha ./*.test.js",
+    "test-watch": "nodemon npm --exec \"npm test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
